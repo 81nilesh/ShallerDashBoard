@@ -69,4 +69,30 @@ body {
     padding: 20px;
 }
 
+
+
+
+
+.deleteButton {
+    background-color: #ff3333;
+    /* Red background color */
+    color: white;
+    /* White text color */
+    border: none;
+    padding: 8px 16px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+/* Style for edit button */
+.editButton {
+    background-color: #007bff;
+    /* Blue background color */
+    color: white;
+    /* White text color */
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
 /* ... Rest of your CSS styles ... */
