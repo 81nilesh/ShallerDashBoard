@@ -45,9 +45,9 @@ const ProductItem = ({ index, product, onDelete, onEdit }) => {
                 </div>
             ) : (
                 <div>
-                    <span>Name: {product.name}</span>
-                    <span>Price: {product.price}</span>
-                    <button onClick={handleDelete}>Delete</button>
+                    <span style={{ marginRight: '5px' }}>Name: {product.name}</span><br />
+                    <span>Price: {product.price}</span> <br />
+                    <button onClick={handleDelete} style={{ margin: '10px' }}>Delete</button>
                     <button onClick={handleEdit}>Edit</button>
                 </div>
             )}
